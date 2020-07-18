@@ -1,0 +1,10 @@
+name: atto
+description: atto theme for atto (pvt) ltd site by ahmd
+type: theme 
+base theme: stable9
+core_version_requirement: ^8 || ^9
+
+
+libraries:
+  - digital/global-css
+  - digital/global-js
