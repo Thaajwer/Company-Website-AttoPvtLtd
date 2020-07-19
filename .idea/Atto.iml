@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/doctrine/reflection" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/drupal/core-composer-scaffold" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/drupal/core-project-message" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/drupal/core-vendor-hardening" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/laminas/laminas-escaper" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/laminas/laminas-feed" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/laminas/laminas-stdlib" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/laminas/laminas-zendframework-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/pear/archive_tar" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/pear/console_getopt" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/pear/pear-core-minimal" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/pear/pear_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/stack/builder" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony-cmf/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/validator" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/source/vendor/typo3/phar-stream-wrapper" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

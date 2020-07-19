@@ -1,1 +1,7 @@
-aaaaaaaa
+{% include directory ~ '/template/includes/header.html.twig' %}
+{#Content of Page - Start#}
+{% if page.content %}
+  {{ page.content }}
+{% endif %}
+{#Content of Page - End#}
+{% include directory ~ '/template/includes/footer.html.twig' %}
