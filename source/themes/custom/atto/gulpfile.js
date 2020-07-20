@@ -9,13 +9,13 @@ var pngquant = require('imagemin-pngquant');
 sass.compiler = require('node-sass');
 
 gulp.task('imagemin', function () {
-    return gulp.src('./themes/custom/d6site/images/*')
+    return gulp.src('./themes/custom/atto/images/*')
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('./themes/custom/d6site/images'));
+        .pipe(gulp.dest('./themes/custom/atto/images'));
 });
 gulp.task('sass', function () {
     return gulp.src('./sass/**/*.scss')
@@ -23,9 +23,9 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('./css'));
 });
 gulp.task('uglify', function() {
-    gulp.src('./themes/custom/d6site/lib/*.js')
+    gulp.src('./themes/custom/atto/lib/*.js')
         .pipe(uglify('main.js'))
-        .pipe(gulp.dest('./themes/custom/d6site/js'))
+        .pipe(gulp.dest('./themes/custom/atto/js'))
 });
 gulp.task('watch', function(){
     livereload.listen();
