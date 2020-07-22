@@ -1,16 +1,16 @@
 ;(function($) {
     "use strict";
-    
-    var nav_offset_top = $('header').height(); 
+
+    var nav_offset_top = $('header').height();
     /*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
-	//* Navbar Fixed  
+	//* Navbar Fixed
     function navbarFixed(){
-        if ( $('.main_menu_area').length ){ 
+        if ( $('.main_menu_area').length ){
             $(window).scroll(function() {
-                var scroll = $(window).scrollTop();   
+                var scroll = $(window).scrollTop();
                 if (scroll >= nav_offset_top ) {
                     $(".main_menu_area").addClass("navbar_fixed");
                 } else {
@@ -20,9 +20,9 @@
         };
     };
     navbarFixed();
-    
-    
-    
+
+
+
     /*----------------------------------------------------*/
     /*  Main Slider js
     /*----------------------------------------------------*/
@@ -87,8 +87,8 @@
         }
     }
     main_slider();
-  
-    
+
+
     /*----------------------------------------------------*/
     /*  Testimonials Slider
     /*----------------------------------------------------*/
@@ -108,12 +108,12 @@
                     0: {
                         items: 1,
                         center: false,
-                        margin: 0 
+                        margin: 0
                     },
                     700: {
                         items: 2,
                         center: false,
-                        margin: 30 
+                        margin: 30
                     },
                     992: {
                         items: 3,
@@ -128,7 +128,7 @@
         }
     }
     testimoninals_carousel();
-    
+
     /*----------------------------------------------------*/
     /*  Shap Slider
     /*----------------------------------------------------*/
@@ -147,8 +147,8 @@
         }
     }
     shap_carousel();
-    
-   
+
+
     /*----------------------------------------------------*/
     /*  Skill Bar
     /*----------------------------------------------------*/
@@ -161,7 +161,7 @@
 	        var progressValue = Self.data('value');
 
 	        Self.find('.progress-bar').animate({
-	          width:progressValue+'%'           
+	          width:progressValue+'%'
 	        }, 1000);
 
 	        Self.find('.number').countTo({
@@ -174,13 +174,13 @@
 	  }
 	}
     progressBarConfig ();
-    
+
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
-    
-    
+
+
     /*----------------------------------------------------*/
     /*  portfolio_isotope
     /*----------------------------------------------------*/
@@ -193,12 +193,12 @@
                     layoutMode: 'masonry',
                     percentPosition:true,
                     columnWidth: 1,
-                }); 
-            }); 
+                });
+            });
         }
     }
     home_gallery();
-    
+
     /*----------------------------------------------------*/
     /*  Portfolio js
     /*----------------------------------------------------*/
@@ -222,10 +222,10 @@
             });
         }
     }
-    
+
     portfolio_isotope();
-    
-    
+
+
     $(document).ready(function() {
         $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
             disableOn: 700,
@@ -237,11 +237,11 @@
             fixedContentPos: false
         });
     });
-    
+
     /*----------------------------------------------------*/
     /*  Google map js
     /*----------------------------------------------------*/
-    
+
     if ( $('#mapBox1').length ){
         var $lat = $('#mapBox1').data('lat');
         var $lon = $('#mapBox1').data('lon');
@@ -280,14 +280,14 @@
         map.addMarker({
             lat: $markerLat,
             lng: $markerLon,
-            icon: $marker,    
+            icon: $marker,
             infoWindow: {
               content: $info
             }
         })
     }
-    
-    
-    
+
+
+
 })(jQuery)
 

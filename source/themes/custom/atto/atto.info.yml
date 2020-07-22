@@ -12,7 +12,5 @@ libraries:
 dependencies:
   - core/jquery
 
-
-
 regions:
   content: 'Content'
