@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff00284-790c-4a58-9542-6bcdb7d49acc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/themes/custom/atto/template/page--service.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/themes/custom/atto/template/page--contact.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/themes/custom/atto/template/includes/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/themes/custom/atto/template/includes/header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/themes/custom/atto/template/page--about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/themes/custom/atto/template/page--about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/themes/custom/atto/template/page--front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/source/themes/custom/atto/template/page--front.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +26,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/themes/custom/atto/template/includes/header.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="17">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/themes/custom/atto/template/page--contact.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+              <folding>
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#div#1;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/source/themes/custom/atto/template/page--front.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <caret line="464" column="7" lean-forward="true" selection-start-line="464" selection-start-column="7" selection-end-line="464" selection-end-column="7" />
               <folding>
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -114,6 +125,7 @@
         <option value="$PROJECT_DIR$/source/themes/custom/atto/template/page--service.html.twig" />
         <option value="$PROJECT_DIR$/source/themes/custom/atto/template/page--front.html.twig" />
         <option value="$PROJECT_DIR$/source/themes/custom/atto/template/includes/header.html.twig" />
+        <option value="$PROJECT_DIR$/source/themes/custom/atto/template/page--contact.html.twig" />
       </list>
     </option>
   </component>
@@ -178,9 +190,8 @@
       <path value="$PROJECT_DIR$/source/vendor/pear/pear_exception" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="63" />
-    <option name="y" value="2" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
     <option name="width" value="750" />
     <option name="height" value="743" />
   </component>
@@ -291,19 +302,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595137414522</updated>
-      <workItem from="1595137420223" duration="13120000" />
+      <workItem from="1595137420223" duration="14653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13120000" />
+    <option name="totallyTimeSpent" value="14653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15128593" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15128593" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -316,7 +327,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22061191" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22061191" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -413,10 +424,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/themes/custom/atto/template/includes/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/themes/custom/atto/template/page--front.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="464" column="7" lean-forward="true" selection-start-line="464" selection-start-column="7" selection-end-line="464" selection-end-column="7" />
           <folding>
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -427,10 +445,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/themes/custom/atto/template/includes/header.html.twig">
+    <entry file="file://$PROJECT_DIR$/source/themes/custom/atto/template/page--contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="272">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#1;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
