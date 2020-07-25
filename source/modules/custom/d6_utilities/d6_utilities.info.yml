@@ -1,0 +1,8 @@
+name: D6 Utilities
+base theme: stable9
+core_version_requirement: ^8 || ^9
+description: Module to create all the utility functionalities for D6 themes.
+dependencies:
+  - drupal:views
+package: D6 Modules
+type: module
